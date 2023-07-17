@@ -4,7 +4,7 @@ app:
   notify: aramanan@ecloudcontrol.com
 build:
   version: 4.2
-  env: POC
+  env: DEV
   build_file: none
   output_files: output/*.zip
   image_template: mongo-4.2
