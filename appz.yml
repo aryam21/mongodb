@@ -14,6 +14,7 @@ deploy:
   replicas: 3
   port:
   - 27017
+  - 9216
 volumes:
 - claim: mongo-data
   mount: /appz/data
@@ -38,9 +39,19 @@ properties:
     vault: MONGO_USER_PASSWORD
   AUTH_KEY:
     vault: AUTH_KEY
+  ENCRYPTION_KEY:
+    vault: ENCRYPTION_KEY
+  BACKUPFILE: ksfe
+  S3_BUCKET: backup-ksfe
+  AWS_ACCESS_KEY_ID: 
+    vault: AWS_ACCESS_KEY_ID
+  AWS_SECRET_ACCESS_KEY: 
+    vault: AWS_SECRET_ACCESS_KEY
+    
   REPLICATION: 3
   MASTER_ENABLE: "yes"
   AUTH_ENABLE: 1
   MONGODB_HOST: 127.0.0.1
-  MONGODB_PORT: 27017
+  MONGODB_PORT: 27017MONGO_BACKUP_TIME: 2
+  MONGO_BACKUP_DAYS: 7
   revision : 31
