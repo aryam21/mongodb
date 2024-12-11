@@ -1,11 +1,11 @@
 users:
-  - name: mongo
-    password: $DB_USER_ADMIN_PASSWORD
+  - name: testuser
+    password: $MONGO_USER_PASSWORD
 
 databases:
-  - name: mongo_db
+  - name: testdb
 
 acl:
-  - database: mongo_db
-    user: mongo
-    access: readWrite
+  - database: testdb
+    user: testuser
+    access: dbOwner
