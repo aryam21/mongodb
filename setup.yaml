@@ -1,11 +1,11 @@
 users:
-  - name: testuser
+  - name: ksfeuser
     password: $MONGO_USER_PASSWORD
 
 databases:
-  - name: testdb
+  - name: ksfetest
 
 acl:
-  - database: testdb
-    user: testuser
+  - database: ksfetest
+    user: ksfeuser
     access: dbOwner
