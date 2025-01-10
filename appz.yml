@@ -4,7 +4,7 @@ app:
   notify: aramanan@ecloudcontrol.com
 
 build:
-  version: 6.0b
+  version: 6.0
   env: DEV
   build_file: none
   output_files: output/*.zip
@@ -65,4 +65,4 @@ properties:
   MONGODB_PORT: 27017
   MONGO_BACKUP_TIME: 2
   MONGO_BACKUP_DAYS: 7
-  revision : 36
+  revision : 37
