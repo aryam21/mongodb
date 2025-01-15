@@ -4,8 +4,12 @@ users:
 
 databases:
   - name: ksfetest
+  - name: newdb
 
 acl:
   - database: ksfetest
+    user: ksfeuser
+    access: dbOwner
+  - database: newdb
     user: ksfeuser
     access: dbOwner
