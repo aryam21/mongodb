@@ -55,7 +55,7 @@ properties:
   #AWS_SECRET_ACCESS_KEY:
     #vault: AWS_SECRET_ACCESS_KEY
   AWS_DEFAULT_REGION: us-east-2
-  BACKUPFILE: ksfetest,test,newdb
+  BACKUPFILE: ksfetest,test,newdb,sample
   REPLICATION: 3
   MASTER_ENABLE: "yes"
   AUTH_ENABLE: 1
