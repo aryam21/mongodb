@@ -55,7 +55,7 @@ properties:
   #AWS_SECRET_ACCESS_KEY:
     #vault: AWS_SECRET_ACCESS_KEY
   AWS_DEFAULT_REGION: us-east-2
-  BACKUPFILE: ksfetest,test,newdb,sample
+  BACKUPFILE: ksfetest,test
   REPLICATION: 3
   MASTER_ENABLE: "yes"
   AUTH_ENABLE: 1
@@ -65,4 +65,4 @@ properties:
   MONGODB_PORT: 27017
   MONGO_BACKUP_TIME: 2
   MONGO_BACKUP_DAYS: 7
-  revision : 46
+  revision : 48
