@@ -58,6 +58,7 @@ properties:
   BACKUPFILE: ksfetest,newdb
   REPLICATION: 3
   MASTER_ENABLE: "yes"
+  OPLOG_SIZE: 2048
   AUTH_ENABLE: 1
   S3_BUCKET: incre-backup-ksfe
   
