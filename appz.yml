@@ -61,7 +61,6 @@ properties:
   OPLOG_SIZE: 1024
   AUTH_ENABLE: 1
   S3_BUCKET: incre-backup-ksfe
-  
   MONGODB_HOST: 127.0.0.1
   MONGODB_PORT: 27017
   MONGO_BACKUP_TIME: 2
