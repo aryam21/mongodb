@@ -58,7 +58,7 @@ properties:
   BACKUPFILE: ksfetest,newdb
   REPLICATION: 3
   MASTER_ENABLE: "yes"
-  OPLOG_SIZE: 1024
+  OPLOG_SIZE: 4096
   AUTH_ENABLE: 1
   S3_BUCKET: incre-backup-ksfe
   MONGODB_HOST: 127.0.0.1
