@@ -57,7 +57,7 @@ properties:
   #AWS_DEFAULT_REGION: us-east-2
   #BACKUPFILE: ksfetest,newdb
   REPLICATION: 2
-  MASTER_ENABLE: "yes"
+  MASTER_ENABLE: "no"
   #OPLOG_SIZE: 2048
   AUTH_ENABLE: 1
   #S3_BUCKET: incre-backup-ksfe
